@@ -69,6 +69,7 @@ export const presets: Record<string, Preset> = {
       'vitest',
     ],
     matchPackagePrefixes: [
+      '@types/testing-library',
       '@testing-library',
       '@vitest',
       'chai',
